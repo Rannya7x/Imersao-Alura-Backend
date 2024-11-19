@@ -70,3 +70,13 @@ app.get("/posts",(req, res)=>{
     res.status(200).json(posts);
 });
 
+function buscarPostPorId(id){
+    return posts.findIndex((post)=>{
+        return post.id === Number(id);
+    });
+};
+
+app.get("/posts/:id", (req, res)=>{
+    const index = buscarPostPorId(req.params.id);
+    res.status(200).json(posts[index]);
+});
