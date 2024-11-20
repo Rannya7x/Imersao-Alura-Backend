@@ -1,4 +1,7 @@
 import express from "express";
+import conectarAoBanco from "./src/config/dbConfig.js";
+
+await conectarAoBanco(process.env.STRING_CONEXAO);
 
 const posts = [
     {
@@ -63,7 +66,7 @@ const app = express();
 app.use(express.json());
 
 app.listen(3000, ()=>{
-    console.log("Escutando...");
+    console.log("Servidor escutando...");
 });
 
 app.get("/posts",(req, res)=>{
