@@ -9,7 +9,7 @@ export default async function conectarAoBanco(stringConexao) {
         await mongoClient.connect();
         console.log("Conectado...");
 
-        return MongoClient
+        return mongoClient;
     } catch (error) {
         console.log("Erro: ", error);
         process.exit();
