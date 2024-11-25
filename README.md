@@ -1,4 +1,4 @@
-![Node API](https://github.com/user-attachments/assets/268e0b26-40b1-4bb0-8e2f-d88879829747)
+![Untitled design (1)](https://github.com/user-attachments/assets/205b1536-f0f7-4d80-9f55-e68a4823fe8f)
 
 ## Descrição do projeto
 
