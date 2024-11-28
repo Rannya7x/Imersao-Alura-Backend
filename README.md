@@ -16,8 +16,10 @@ Um mínimo produto viável de uma API Node que lista, cria e atualiza posts em u
  4. Execute o script `npm run dev` para subir o servidor da API
  5. Acesse **http://localhost:3000/posts**
 
+**Observação:** execute todos os comando dentro da pasta que foi clonada para seu computador
+
 ### Como acessar o site?
 
 Acesse: https://rannya7x.github.io/ (em construção...)
 
-**Observação:** execute todos os comando dentro da pasta que foi clonada para seu computador
+
