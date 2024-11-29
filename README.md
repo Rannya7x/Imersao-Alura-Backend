@@ -14,12 +14,16 @@ Um mínimo produto viável de uma API Node que lista, cria e atualiza posts em u
  1. Clone o projeto para seu computador
  2. Abra o terminal e execute `npm install`
  4. Execute o script `npm run dev` para subir o servidor da API
- 5. Acesse **http://localhost:3000/posts**
+ 5. Acesse **http://localhost:3000/posts** para testar localmente
 
 **Observação:** execute todos os comando dentro da pasta que foi clonada para seu computador
 
 ### Como acessar o site?
 
 Acesse: https://rannya7x.github.io/ (em construção...)
+
+### Deploy do servidor
+
+O projeto está hospedado no Render.com, aqui: https://imersao-alura-backend.onrender.com/posts
 
 
