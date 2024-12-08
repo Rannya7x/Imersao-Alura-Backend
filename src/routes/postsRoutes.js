@@ -4,7 +4,10 @@ import cors from "cors";
 import { listarPosts, enviarPosts, uploadImagem, atualizarNovoPost, deletarPost } from "../controllers/postsController.js";
 
 const corsOptions = {
-    origin: "https://rannya7x.github.io",
+    origin: [
+        "https://rannya7x.github.io",
+        "http://localhost:8000/posts"
+    ],
     optionsSuccessStatus: 200
 }
 
