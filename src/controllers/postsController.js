@@ -41,7 +41,7 @@ export async function uploadImagem(req, res) {
 
 export async function atualizarNovoPost(req, res) {
     const id = req.params.id;
-    const urlImagem = `https://imersao-alura-backend.onrender.com/${id}.jpg`
+    const urlImagem = `http://localhost:3000/${id}.jpg`
     
     try{
         const imageBuffer = fs.readFileSync(`uploads/${id}.jpg`);
