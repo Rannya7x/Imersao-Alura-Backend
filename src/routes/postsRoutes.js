@@ -6,7 +6,7 @@ import { listarPosts, enviarPosts, uploadImagem, atualizarNovoPost, deletarPost 
 const corsOptions = {
     origin: [
         "https://rannya7x.github.io",
-        "http://localhost:8000/posts",
+        "http://localhost:8000",
         "http://127.0.0.1:5500"
     ],
     optionsSuccessStatus: 200
